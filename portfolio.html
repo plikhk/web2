@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="logo">A<span>.</span>Kadashov</a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cards.html">Flexbox</a></li>
+      <li><a href="layout.html">Grid</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="profile-head">
+  <h1>Alikhan Kadashov</h1>
+  <p>Student, group SE-2524 · Atyrau, Kazakhstan</p>
+</section>
+
+<div class="portfolio-main">
+  <div class="projects">
+    <article class="project-card">
+      <h3>Assignment 1 — HTML &amp; CSS Basics</h3>
+      <p>My first responsive page, built with semantic HTML and pure CSS, no frameworks.</p>
+      <div class="project-footer">
+        <span>HTML · CSS</span>
+        <button onclick="window.open('https://github.com/plikhk/web1')">View repo</button>
+      </div>
+    </article>
+    <article class="project-card">
+      <h3>Assignment 2 — Flexbox &amp; Grid</h3>
+      <p>This site: a navbar and card row with Flexbox, a page layout and gallery with CSS Grid.</p>
+      <div class="project-footer">
+        <span>HTML · CSS · Flexbox · Grid</span>
+        <button onclick="window.open('https://github.com/plikhk/web2')">View repo</button>
+      </div>
+    </article>
+  </div>
+
+  <aside class="sidebar-info">
+    <h3>Skills</h3>
+    <div class="skill-row"><span>HTML</span><span>90%</span></div>
+    <div class="skill-bar"><span style="width:90%"></span></div>
+    <div class="skill-row"><span>CSS</span><span>80%</span></div>
+    <div class="skill-bar"><span style="width:80%"></span></div>
+    <div class="skill-row"><span>JavaScript</span><span>45%</span></div>
+    <div class="skill-bar"><span style="width:45%"></span></div>
+
+    <h3 style="margin-top:24px;">Contact</h3>
+    <ul class="contact-list">
+      <li>GitHub: <a href="https://github.com/plikhk" target="_blank">github.com/plikhk</a></li>
+      <li>Group: SE-2524</li>
+      <li>Atyrau, Kazakhstan</li>
+    </ul>
+  </aside>
+</div>
+
+<footer class="site-footer">© 2026 Alikhan Kadashov · SE-2524</footer>
+
+</body>
+</html>

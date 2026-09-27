@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox — Cards</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="logo">A<span>.</span>Kadashov</a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cards.html" class="active">Flexbox</a></li>
+      <li><a href="layout.html">Grid</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-head">
+  <h1>Flexbox in practice</h1>
+  <p>The navbar above and the card row below are both flex containers — one aligns links horizontally, the other keeps three cards the same height in a row.</p>
+</section>
+
+<section class="cards-row">
+  <div class="card">
+    <img src="https://picsum.photos/seed/basketball/400/250" alt="Basketball">
+    <div class="card-body">
+      <h3>Basketball</h3>
+      <p>I play a few times a week — it's my main way to stay active and switch off after classes.</p>
+      <button>Learn more</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://picsum.photos/seed/football/400/250" alt="Football">
+    <div class="card-body">
+      <h3>Football &amp; Volleyball</h3>
+      <p>Weekend games with friends — football in summer, volleyball whenever we can grab a court.</p>
+      <button>Learn more</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://picsum.photos/seed/csgo/400/250" alt="PC Gaming">
+    <div class="card-body">
+      <h3>PC Gaming</h3>
+      <p>Outside of sports I play CS with friends — competitive, but mostly for fun after a long day.</p>
+      <button>Learn more</button>
+    </div>
+  </div>
+</section>
+
+<div class="chips-row">
+  <span class="chip">flex-wrap</span>
+  <span class="chip">gap</span>
+  <span class="chip">justify-content</span>
+  <span class="chip">align-items</span>
+  <span class="chip">flex: 1</span>
+</div>
+
+<footer class="site-footer">© 2026 Alikhan Kadashov · SE-2524</footer>
+
+</body>
+</html>

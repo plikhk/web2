@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid — Page layout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="logo">A<span>.</span>Kadashov</a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cards.html">Flexbox</a></li>
+      <li><a href="layout.html" class="active">Grid</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-head">
+  <h1>Grid page layout</h1>
+  <p>One grid container, four named areas: header on top, sidebar on the left, main content on the right, footer spanning the bottom.</p>
+</section>
+
+<div class="page-grid">
+  <header class="g-header">Dashboard</header>
+  <aside class="g-sidebar">
+    <h3>Menu</h3>
+    <ul>
+      <li>Overview</li>
+      <li>Schedule</li>
+      <li>Stats</li>
+      <li>Settings</li>
+    </ul>
+  </aside>
+  <main class="g-main">
+    <h2>Weekly overview</h2>
+    <p>This block sits in the grid area "main", placed with <code>grid-template-areas</code> — no floats, no absolute positioning.</p>
+    <div class="stat-grid">
+      <div class="stat-card"><div class="n">3</div><div class="l">Games this week</div></div>
+      <div class="stat-card"><div class="n">12</div><div class="l">Hours of CS</div></div>
+      <div class="stat-card"><div class="n">5</div><div class="l">Deadlines left</div></div>
+    </div>
+  </main>
+  <footer class="g-footer">© 2026 Alikhan Kadashov</footer>
+</div>
+
+</body>
+</html>
